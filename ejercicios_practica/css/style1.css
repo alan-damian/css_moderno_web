@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #4e4e4e;
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.182);
+    margin: 5px;
+}
+
+
+
+header nav img {
+    height: 20px;
+    transition: 500ms;
+    margin: 5px;
+}
+
+
+nav li :hover {
+    height: 25px;
+    transition: 500ms;
+    border-bottom: 3px solid #ff005d;
+}
